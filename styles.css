@@ -1,0 +1,114 @@
+main{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top:  10%;
+    background: #F3F5FC;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top:  0%;
+    background: #F3F5FC;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    z-index: 1;
+
+}
+
+#btn-inicio{
+    /*position: absolute;
+
+    left: 40%;
+    top: 45%;*/
+    margin: 0 auto;
+    width: 340px;
+    height: 200px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+/*.letrasMinus{
+    font-size: 16px;
+    position: absolute;
+    left: 240px;
+    top: 65%;
+
+}*/
+
+#btn-iniciar, #btn-agregar{
+    background: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 24px;
+    width: 328px;
+    height: 67px;
+    color: #D8DFE8;
+
+}
+
+#btn-agregar{
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+/*#boton-copiar{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    margin: 32px;
+}
+*/
+.ocultable{
+    display:  none;
+}
+
+.aviso{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background-color: #000000;
+    opacity: 50%;
+}
+
+.aviso *{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: whitesmoke;
+    font-size: 32px;
+    z-index: 2;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 36px;
+    background: #D8DFE8;
+}
+
+footer p{
+    font-family: Inter;
+    width: 220px;
+    margin: 10px auto;
+    color: #495057;
+}
