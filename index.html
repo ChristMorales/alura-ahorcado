@@ -15,16 +15,28 @@
 			<h1><img src="images/logo.png" class="logo"></h1>
 	</header>
 	<main>
-		<section id="btn-inicio">
+		<section class="btn-inicio">
 			<button id="btn-iniciar">Iniciar juego</button>
 			<button id="btn-agregar">Agregar nueva palabra</button>
 		</section>
-			
+		<section id="section-canvas" class="oculto">
+			<canvas width="294px" height="360px">
+				
+			</canvas>
+		</section>
+		<section id="letras-ahorcado">
+			<ul class="lista-letras">
+			</ul>
+		</section>	
+		<section class="fallos">
+			<p></p>
+		</section>
 	</main>
 	<footer>
 		<p>&copy 2022 Christopher Morales</p>
 	</footer>
 
 <script src="script.js"></script>
+<script src="canvas.js"></script>
 </body>
 </html>

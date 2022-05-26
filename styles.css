@@ -26,7 +26,7 @@ header{
 
 }
 
-#btn-inicio{
+.btn-inicio{
     /*position: absolute;
 
     left: 40%;
@@ -111,4 +111,40 @@ footer p{
     width: 220px;
     margin: 10px auto;
     color: #495057;
+}
+
+#letras-ahorcado{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    float: left;
+    margin: 15px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    width: 80px;
+    height: 92px;
+    border-bottom: 4px solid;
+}
+
+.fallos{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.oculto{
+    display: none;
+}
+
+.canvas{
+    text-align: center;
 }
