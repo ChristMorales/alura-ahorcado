@@ -1,5 +1,6 @@
 let canvas = document.querySelector("canvas");
 let pincel = canvas.getContext("2d");
+let dibujos = [dibujar1, dibujar2, dibujar3, dibujar4, dibujar5, dibujar6];
 pincel.lineWidth = 5;
 
 

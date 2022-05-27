@@ -148,3 +148,55 @@ li{
 .canvas{
     text-align: center;
 }
+
+.texto{
+    position: absolute;
+    width: 35%;
+    height: 40%;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.btn-agregado{
+    /*position: absolute;
+
+    left: 40%;
+    top: 45%;*/
+    margin: 0 auto;
+    width: 670px;
+    height: 100px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    float: left;
+
+
+}
+
+.btn1, .btn2{
+    background: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 24px;
+    width: 328px;
+    height: 67px;
+    color: #D8DFE8;
+    display: block;
+
+}
+
+#btn2r{
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
